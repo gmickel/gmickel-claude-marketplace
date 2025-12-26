@@ -1,4 +1,4 @@
-# flow
+# Flow
 
 Two‑step Claude Code workflow: plan first, work second.
 
