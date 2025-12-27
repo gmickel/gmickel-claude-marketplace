@@ -1,6 +1,6 @@
 {
   "name": "flow",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Two-step planning + execution workflow. Includes 5 agents, 2 commands, 3 skills.",
   "author": {
     "name": "Gordon Mickel",

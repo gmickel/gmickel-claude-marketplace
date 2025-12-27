@@ -2,6 +2,12 @@
 
 All notable changes to the gmickel-claude-marketplace.
 
+## [0.2.2] - 2024-12-27
+
+### Fixed
+- Use namespaced agent names (`flow:repo-scout`, `flow:practice-scout`, etc.) in skill reference files
+- Make workflow file references directive ("Read and follow" instead of passive links)
+
 ## [0.2.1] - 2024-12-27
 
 ### Changed
