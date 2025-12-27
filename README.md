@@ -45,10 +45,21 @@ This marketplace contains plugins that fix those problems.
 
 ### Quick Start
 
+**Standalone:**
 ```bash
 /flow:plan Add OAuth login for users
 /flow:work plans/add-oauth-login.md
 ```
+
+**Chained (how I actually use it):**
+```bash
+/flow:plan Add OAuth login, then review it with /flow:plan-review and fix any issues
+```
+```bash
+/flow:work plans/add-oauth-login.md, then review with /flow:impl-review and fix issues until it passes
+```
+
+Claude understands intent and flows between commands automatically.
 
 ### What's Included
 
