@@ -6,6 +6,7 @@
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blueviolet)](https://claude.ai/code)
 [![Commands](https://img.shields.io/badge/Commands-2-green)](commands/)
 [![Agents](https://img.shields.io/badge/Agents-5-yellow)](agents/)
+[![Skills](https://img.shields.io/badge/Skills-3-blue)](skills/)
 
 **Two‑step Claude Code workflow: plan first, work second.**
 
@@ -63,7 +64,15 @@ Most failures come from weak planning or drifting from the plan. Flow fixes both
 
 | Skill | Purpose |
 |-------|---------|
+| `flow-plan` | Planning workflow logic |
+| `flow-work` | Execution workflow logic |
 | `worktree-kit` | Safe parallel git workspaces |
+
+Skills use **progressive disclosure**: only name + description (~100 tokens) loaded at startup. Full logic loads on-demand when triggered.
+
+**Two ways to trigger**:
+1. **Explicit**: `/flow:plan add OAuth` or `/flow:work plans/oauth.md`
+2. **Natural language**: "help me plan out adding OAuth" or "implement the plan in plans/oauth.md" — Claude auto-triggers the matching skill
 
 ---
 

@@ -26,6 +26,8 @@
 
 Two‑step workflow: **plan first, work second.**
 
+Uses progressive disclosure—only ~100 tokens loaded at startup per skill, full logic loads on-demand.
+
 ```bash
 /plugin install flow
 ```
@@ -35,7 +37,9 @@ Two‑step workflow: **plan first, work second.**
 /flow:work plans/add-oauth-login.md
 ```
 
-📖 **[Full documentation →](plugins/flow/README.md)**
+**Includes**: 2 commands, 5 agents, 3 skills
+
+📖 **[Full documentation →](plugins/flow/README.md)** · **[Changelog →](CHANGELOG.md)**
 
 ---
 
