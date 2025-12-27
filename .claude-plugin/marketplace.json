@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Claude Code plugin marketplace by Gordon Mickel",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   "plugins": [
     {
       "name": "flow",
       "description": "Two-step planning + execution workflow. Includes 5 agents, 2 commands, 3 skills.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Gordon Mickel",
         "email": "gordon@mickel.tech",
